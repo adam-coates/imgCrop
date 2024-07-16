@@ -18,6 +18,7 @@ usage() {
     exit 1
 }
 
+
 # Parse options
 while getopts "c:i:o:p:t:" opt; do
     case $opt in
